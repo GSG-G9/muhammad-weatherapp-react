@@ -1,0 +1,12 @@
+.CardHeaderTitle .card--header--title_placename h1 {
+  font-size: 2rem;
+}
+
+.CardHeaderTitle .card--header--title_placename h2 {
+  font-size: inherit;
+}
+
+.CardHeaderTitle .card--header--title_clock h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
