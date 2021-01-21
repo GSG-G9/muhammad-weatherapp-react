@@ -1,0 +1,49 @@
+.card--content--daily {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #f0f0f09d;
+}
+
+.card--content--daily .card--content--daily_temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--content--daily .card--content--daily_temp div img {
+  width: 30px;
+  margin-right: 1.5rem;
+}
+
+.card--content--daily .card--content--daily_temp .temp_max {
+  margin-right: 0.8rem;
+}
+
+.card--content--daily .card--content--daily_temp span[class^=temp] {
+  font-size: 20px;
+}
+
+.card--content--daily.card--header--temp .card--content--daily_temp span[class^=temp] {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.card--content--daily .card--content--daily_temp span[class^=temp]:last-child {
+  color: #ffffff83;
+}
+
+.card--content--daily.card--header--temp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--content--daily.card--header--temp .card--content--daily_temp .card--header--temp_icon img{
+  width: 70px;
+  margin-right: 1rem;
+}

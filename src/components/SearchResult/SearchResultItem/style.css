@@ -1,0 +1,29 @@
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #959595;
+  color: #353535;
+  padding: 0.5rem;
+  transition: all 0.25s;
+}
+.result-card:hover {
+  background-color: #c7c7c7;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.result-card div {
+  padding: 0.5rem 0;
+}
+
+.fa-map-marker-alt {
+  padding-right: 1rem;
+}
+
+.result-card div span[class^=result-card--d] {
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+}
